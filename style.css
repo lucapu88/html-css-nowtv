@@ -155,6 +155,7 @@ header {
     #jumbo {
         height: 550px;
     }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -177,6 +178,7 @@ header {
         width: 50%;
         transform: translateX(-50%);
     }
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -206,13 +208,18 @@ header {
         top: 390px;
     }
 
-    .watchmen {
-      display: none;
-    }
-    
-    .col-lg-3 {
-      margin-left: 7%;
-    }
+}
+
+ @media screen and (max-width: 992px) {
+
+   .watchmen {
+     display: none;
+   }
+
+   .col-lg-3 .col-md-4 {
+     width: 30%;
+     margin-left: 3%;
+   }
 }
 
 
@@ -257,4 +264,5 @@ header {
     #ribbon .button {
         margin-left: 0;
     }
+
 }
