@@ -216,14 +216,10 @@ header {
      display: none;
    }
 
-   .col-lg-3 .col-md-4 {
-     width: 30%;
-     margin-left: 3%;
-   }
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     header {
         height: 50px;
@@ -265,4 +261,23 @@ header {
         margin-left: 0;
     }
 
+    .bohemian {
+      display: none;
+    }
+
+    .col-lg-3 {
+      width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  .novantaquattro {
+    display: none;
+  }
+
+  .col-lg-3 {
+    width: 100%;
+  }
 }
