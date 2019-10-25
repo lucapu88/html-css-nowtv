@@ -141,6 +141,23 @@ header {
     border-right: none;
 }
 
+.threecolon {
+  background-color: #022B42;
+  color: white;
+  text-align: center;
+}
+
+.colonText {
+  text-align: center;
+  border: 1px solid white;
+  padding: 5% 3%;
+}
+
+.title {
+  margin: 10% 0 10% 0;
+}
+
+
 @media screen and (max-width: 1440px) {
     #jumbo {
         height: 650px;
