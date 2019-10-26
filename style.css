@@ -131,7 +131,9 @@ header {
     margin-left: 20px;
     font-weight: normal;
 }
+/*** fine ribbon ***/
 
+/*** inizio movies ***/
 #movies img {
     max-width: 100%;
     border-right: 5px solid white;
@@ -140,20 +142,24 @@ header {
 #movies .col-lg-3:last-child img {
     border-right: none;
 }
+/*** fine movies ***/
 
+/*** inizio threecolon ***/
 .threecolon {
   background-color: #022B42;
   color: white;
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .colonText {
   text-align: center;
-  padding: 5% 3%;
+  padding-top: 50px;
 }
 
 .textp {
+  padding: 15px;
   line-height: 1.8;
 }
 
@@ -164,14 +170,70 @@ header {
 .center {
   padding-top: 3%;
 }
+/*** fine threecolon ***/
 
+/*** inizio tanto-calcio ***/
 .tanto-calcio {
   background-color: #1C5EEA;
   padding-bottom: 50px;
 }
+/*** fine tanto-calcio ***/
 
+/*** inizio guardaTV ***/
+.guardaTV {
+  line-height: 1.8;
+  padding-bottom: 50px;
+  background-color: #003366;
+}
 
+ .usb {
+    padding-top: 50px;
+}
+/*** fine guardaTV ***/
 
+/*** inizio footer ***/
+footer {
+  background-color: #1C1C21;
+}
+
+.linkfooter {
+  text-align: left;
+  padding-top: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 1.9;
+}
+
+.fab {
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.fab:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  color: lightgrey;
+  font-size: 11px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.condizioni {
+  text-decoration: underline;
+}
+/*** fine footer ***/
+
+/*** tutte le media query ***/
 @media screen and (max-width: 1440px) {
     #jumbo {
         height: 650px;
@@ -239,6 +301,29 @@ header {
         top: 390px;
     }
 
+    .options {
+      width: 40%;
+      text-align: center;
+      margin-left: 5%;
+    }
+
+    ul li {
+      border-bottom: 1px solid lightgrey;
+      border-top: 1px solid lightgrey;
+      padding: 10px;
+    }
+
+    .options1 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .options2 {
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
 }
 
  @media screen and (max-width: 992px) {
@@ -306,6 +391,11 @@ header {
 
     .sport {
       width: 100%;
+    }
+
+    .options, .options1, .options2 {
+      width: 100%;
+      text-align: center;
     }
 }
 
