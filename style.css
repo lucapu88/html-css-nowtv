@@ -385,7 +385,7 @@ a {
       width: 50%;
     }
 
-    .col-lg-4 {
+    .colonText {
       width: 100%;
     }
 
@@ -396,6 +396,10 @@ a {
     .options, .options1, .options2 {
       width: 100%;
       text-align: center;
+    }
+
+    .usb {
+      width: 50%;
     }
 }
 
